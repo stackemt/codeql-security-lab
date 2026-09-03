@@ -1,12 +1,13 @@
 {
   "name": "codeql-security-lab",
   "version": "1.0.0",
-  "description": "Intentionally vulnerable demo for a CodeQL assignment",
+  "description": "CodeQL security analysis assignment",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0"
   }
 }
